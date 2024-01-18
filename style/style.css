@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: black;
+    margin-top: 70px;
+    padding: 15px;
+    border-radius: 12px;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #3a3b3c, 2px 5px 16px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+h2 {
+    text-align: center;
+    color: yellow;
+    margin-bottom: 20px;
+}
+.card {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+#input {
+    background: rgb(37, 37, 37);
+    padding: 3px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid yellow;
+    color: yellow;
+}
+#input:focus {
+    box-shadow: 0 0 15px yellow;
+}
+::placeholder {
+    font-size: 12px;
+    padding-left: 15px;
+    color: yellow;
+}
+#btn {
+    border: none;
+    background: rgb(37, 37, 37);
+    padding: 3px 9px;
+    border-radius: 8px;
+    border: 1px solid yellow;
+    transition: all;
+
+    color: yellow;
+}
+#btn:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 0 0 5px, 0 0 25px yellow;
+}
+#btn:active {
+    box-shadow: 0 0 0;
+}
+#plan {
+    padding: 10px 8px;
+    background: rgb(37, 37, 37);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+span {
+    color: yellow;
+    border-bottom: 1px solid yellow;
+    padding-bottom: 2px;
+}
+.fa-solid{
+    transition: all;
+    float: right;
+}
+.fa-solid:hover {
+    box-shadow: 0 0 15px yellow;
+    cursor: pointer;
+    transition: 0.2s;
+}
